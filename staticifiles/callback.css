@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: black;
+}
+div form{
+    width:23%;
+    height:65vh;
+    background-color: blueviolet;
+    background-color: rgba(123, 117, 117, 0.31);
+    transform: translate(35vw,10vh);
+    font-size: 0.9vw;
+    padding:2vw;
+    color: rgba(255, 255, 255, 0.868);
+    border-radius: 2vw;
+}
+div form .lab{
+    margin:0.3vw;
+    font-size: 1.2vw;
+}
+div form .inp{
+    width:95%;
+    margin:0.3vw;
+    padding:0.5vw;
+    background-color: black;
+    border:none;
+}
+div form #submit{
+    width:90%;
+    margin-left: 1vw;
+    margin-top:6vh;
+    padding:0.5vw;
+    background-color: rgb(110, 222, 185);
+    border:none;
+    border-radius: 0.5vw;
+}
+

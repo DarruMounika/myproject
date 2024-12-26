@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'callback.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+{% endblock css %}
+{% block body%}
+<div>
+    <form action="" style="font-family: monospace;">
+        <center><h2>Request a callback</h2><br></center>
+        <center><p>Fill the form below to request a callback from our team</p></center><br>    
+        <label class="lab" for="">Name</label><br>
+        <input class="inp" type="text" placeholder="Name"><br>
+        <label class="lab" for="">Phone</label><br>
+        <input class="inp" type="number" placeholder="Phone"><br>
+        <label class="lab" for="">Select Date and Time</label><br>
+        <input class="inp" type="datetime-local">
+        <br>
+        <input id="submit" type="submit">
+    </form>
+</div>
+{% endblock body%}

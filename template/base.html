@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheryians coding school | Learn</title>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    <link rel="icon" href="{% static 'sheriyan-removebg-preview.png' %}">
+    {% block css %}
+
+    {% endblock css %}
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="left" style="letter-spacing: 0.2vw;font-size: 1vw;"><img src="{% static 'sheriyan-removebg-preview.png' %}" alt="" style="width:3vw;height:3vh;border-radius: 100%;">Sheryians coding school</div>
+            <div id="mid"></div>
+            <div id="right">
+                <div><a href="{% url 'firstpage:home' %}">Home</a></div>
+                <div><a href="{% url 'firstpage:course' %}">Course</a></div>
+                <div><a href="{% url 'firstpage:bootcamp' %}">Bootcamp(Kodr)</a></div>
+                <div><a href="{% url 'firstpage:callback' %}">Request Callback</a></div>
+                <div><a href="{% url 'firstpage:signin' %}"><button id="signin">Sign In</button></a></div>
+            </div>
+        </nav>
+    </header>
+    {% block body %}
+    {% endblock body %}
+</body>
+</html>

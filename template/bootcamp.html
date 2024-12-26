@@ -1,0 +1,292 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'bootcamp.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+{% endblock css %}
+
+{% block body%}
+<div id="main">
+    <div id="left">
+        <h1>6 months In-House <br>Bootcamp <br>programmae-Kodr.</h1><br>
+        <p>Starts on:11 Nov 2024</p>
+        <p>Placements Assistance<img style="width:5%" src="{% static 'bluetick.png' %}"></p><br>
+        <h3 id="h3">Price <span style="color:rgb(67, 225, 172)">₹5900</span> <small style="font-size: 13px;">[50,000 +
+                18% Gst]</small></h3>
+        <button>Seats are Full</button>
+    </div>
+    <div id="right">
+        <iframe style="border-radius: 40px;" width="625" height="351" src="https://www.youtube.com/embed/pOGLAlGCKFE"
+            title="This Bootcamp Will Change Your Life: Kodr x Sheryians !" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br>
+</div>
+<div id="sector1">
+    <h1 id="sect-h1">we believe in, <br><span style="color:rgb(102, 215, 178)">Consistency.No shortcuts.</span></h1>
+    <h1 class="sect-emoji">
+        <p>MERN Stack ⚡</p><span></span>
+        <p>Data Structures & Algorithm 🗿</p>
+    </h1><br>
+    <h1 class="sect-emoji">
+        <p>DBMS-SQL 🤟</p><span></span>
+        <p>CORE CS Subjects 🎱</p>
+    </h1><br>
+    <h1 class="sect-emoji">
+        <p>Placement Assistance 💰</p>
+    </h1>
+</div>
+
+
+<div id="sector2">
+    <h1 style="font-family: sans-serif;">Non-Stop <br><span style="color:rgb(122, 236, 198)">5 Hours <br></span>Coding
+        <small style="font-size: 40px;">[Everyday]</small></h1>
+    <p style="font-family: sans-serif;">Monday to Saturday. 11:00 AM To 4:00 PM.</p>
+</div>
+
+<div id="sector3">
+    <h1 id="sect3-h1">Dominate.</h1>
+    <p id="sect3-p" style="font-family: sans-serif; margin-bottom: 5vw;">From Start to Victory.</p>
+    <hr>
+    <details id="html">
+        <summary>
+        <h1 style="margin-bottom: 2vw;">HTML/CSS<small style="margin-left: 61vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>HTML Basics</h5>
+            <h5>Semantic HTML.</h5>
+            <h5>Forms and Validation</h5>
+            <h5>CSS Fundamentals</h5>
+            <h5>CSS Box Model</h5>
+            <h5>Flexbox</h5>
+            <h5>Grid Layout</h5>
+            <h5>CSS Animations</h5>
+            <h5>Transition</h5>
+            <h5>Keyframe Animations</h5>
+            <h5>Responsive Queries</h5>
+            <h5>CSS Variables</h5>
+            <h5>CSS Frameworks (TailwindCSS)</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="js">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">JavaScript <small style="margin-left: 60vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>Introduction to JavaScript</h5>
+            <h5>Functions (Declaration, Expression, Arrow)</h5>
+            <h5>Scope (Global, Local, Block)</h5>
+            <h5>Closures</h5>
+            <h5>CallBACKS</h5>
+            <h5>Promises</h5>
+            <h5>Async/Await</h5>
+            <h5>Error Handling</h5>
+            <h5>Event Loop</h5>
+            <h5>DOM Manipulation</h5>
+            <h5>Event Handling</h5>
+            <h5>Object-Oriented Programming (OOP)</h5>
+            <h5>Prototypes</h5>
+            <h5>Inheritance</h5>
+            <h5>`this` Keyword</h5>
+            <h5>ES6 Features (Destructing, Spread Operator)</h5>
+            <h5>JSON Handling</h5>
+            <h5>Fetch API</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="rsj">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">React Js <small style="margin-left: 63vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>JSX</h5>
+            <h5>function Components</h5>
+            <h5>Class Components</h5>
+            <h5>Props</h5>
+            <h5>State</h5>
+            <h5>useState Hook</h5>
+            <h5>useEffect Hook</h5>
+            <h5>React Router</h5>
+            <h5>Context API</h5>
+            <h5>Redux</h5>
+            <h5>Hooks (useMemo, useCallback, useRef)</h5>
+            <h5>Form Handling</h5>
+            <h5>Two-Way Binding</h5>
+            <h5>Higher-Order Components</h5>
+            <h5>Lazy Loading</h5>
+            <h5>Component Lifecycle</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="dsa">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">DataStructure and Algorithms (DSA) <small style="margin-left: 28vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>Arrays</h5>
+            <h5>Linked Lists</h5>
+            <h5>Stacks</h5>
+            <h5>Queues</h5>
+            <h5>Hash Tables</h5>
+            <h5>Tree (Binary, BST)</h5>
+            <h5>Graphs</h5>
+            <h5>Sorting Algorithms</h5>
+            <h5>Searching Algoriths</h5>
+            <h5>Dynamic Programming</h5>
+            <h5>Greedy Algorithms</h5>
+            <h5>Backtracking</h5>
+            <h5>Recussion</h5>
+            <h5>Time Complexity</h5>
+            <h5>Space Complexity</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="njs">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">Node.js and Express [Backend] <small style="margin-left: 35vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>HTTP Server</h5>
+            <h5>File Handling</h5>
+            <h5>Routing in Express</h5>
+            <h5>Rest APIs</h5>
+            <h5>Middleware</h5>
+            <h5>Authentication (JWT,OAuth)</h5>
+            <h5>Cookies</h5>
+            <h5>Error Handling</h5>
+            <h5>WebSockets (Socket.io)</h5>
+            <h5>File Uploads</h5>
+            <h5>API Rate Limiting</h5>
+            <h5>CORS</h5>
+            <h5>Testing (Mocha, Chai)</h5>
+            <h5>Security (XSS, CSRF, DOS)</h5>
+            <h5>Environment Variables</h5>
+            <h5>Debugging</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="db">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">Databases<small style="margin-left: 61vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>MongoDB</h5>
+            <h5>Aggregation in MongoDB</h5>
+            <h5>Indexing</h5>
+            <h5>Relationships in MongoDB</h5>
+            <h5>Redis</h5>
+            <h5>Replication</h5>
+            <h5>Sharding</h5>
+            <h5>MySQL</h5>
+            <h5>Queries</h5>
+            <h5>Joins in MySQL</h5>
+            <h5>Normalization</h5>
+            <h5>ACID Properties</h5>
+            <h5>Transactions</h5>
+            <h5>Stored Procedures & Function</h5>
+            <h5>Triggers</h5>
+            <h5>Optimization</h5>
+            <h5>Database Design</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="git">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">Git/GitHub<small style="margin-left: 60vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>Version Control Basics</h5>
+            <h5>Branching and Merging</h5>
+            <h5>Pull Requests</h5>
+            <h5>Git Workflows (GitFlow)</h5>
+            <h5>Conflict Resolution</h5>
+            <h5>GitHub Collaboration</h5>
+            <h5>CI/CD with GitHub Actions</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="dvps">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">DevOps and Deployment<small style="margin-left: 43vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>Node.js Deployment (Heroku,AWS)</h5>
+            <h5>CI/CD Pipelines</h5>
+            <h5>Docker</h5>
+            <h5>Containerization</h5>
+            <h5>Versioning</h5>
+            <h5>Load Balancing</h5>
+        </div>
+    </details>
+    <hr>
+    <details id="at">
+        <summary>
+            <h1 style="margin-bottom: 2vw;">Additional Topics<small style="margin-left: 51vw;">Expand</small></h1>
+        </summary>
+        <div>
+            <h5>Operating System</h5>
+            <h5>Computer Network</h5>
+            <h5>SEO Principles</h5>
+            <h5>GSAP Animations</h5>
+            <h5>Framer Motion</h5>
+            <h5>AI Tools (ChatGPT, GitHub Copilot)</h5>
+            <h5>Resume building</h5>
+            <h5>Interview Prepartion</h5>
+            <h5>Mock Interview</h5>
+        </div>
+    </details>
+    <hr>
+    </div>
+</div>
+
+
+                                            <!--    FOOTER   -->
+
+
+<footer>
+    <div id="footer">
+        <hr>
+        <div id="f-footer">
+            <div><img style="width:25%" src="{% static 'sheriyan-removebg-preview.png' %}" alt="">
+                <p>Let's connect with our socials</p>
+                <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i><i
+                    class="fa-brands fa-discord"></i><i class="fa-brands fa-youtube"></i><i
+                    class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+                <h2>COMPANY</h2>
+                <h4>About us</h4>
+                <h4>Support</h4>
+                <h4>Privacy Policy</h4>
+                <h4>Terms and Conditions</h4>
+                <h4>Pricing and Refund</h4>
+                <h4>Hire From Us</h4>
+                <h4>Bug Bounty</h4>
+            </div>
+            <div>
+                <h2>COMMUNITY</h2>
+                <h4>Inertia</h4>
+                <h4>Discord</h4>
+            </div>
+            <div>
+                <h2>Get In Touch</h2>
+                <h4>+91 8109161752</h4>
+                <h4>+91 9691778470</h4>
+                <h4>hello@sheriyans.com</h4>
+                <h4>23-b,Indrapuri Sector C,Bhopal(MP),462021</h4>
+            </div>
+        </div>
+        <hr>
+        <div id="last">
+            <center>
+                <h2>Copyrights 2024 SheriyansPvt.Ltd.</h2>
+            </center>
+            <center>
+                <h2>All Rights Reserved</h2>
+            </center>
+        </div>
+    </div>
+</footer>
+{% endblock body%}

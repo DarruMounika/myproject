@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'course.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+{% endblock css %}
+{% block body%}
+<h1>We're not a <span style="color:rgb(48, 228, 168)">course <br>factory.</span></h1>
+<h3>We focus on courses that really help</h3>
+<p>Courses which do work <span></span></p>
+
+<div id="courses-offered">
+    <div id="first">
+        <div id="content-vd">
+            <iframe width="377" height="200" id="vd-f" src="https://www.youtube.com/embed/GD0h-bUGHto"
+                title="[ Course Launch 🚀 ] Front-End Domination: Create Anything with Code" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div id="content1">
+            <h3>Front-End Domination: Create Anything with Code</h3><br>
+            <h6 style="background-color: rgba(145, 133, 133, 0.833);width:15%;">HINDI</h6><br>
+            <p>Limited Time Discount</p><br>
+            <h2>₹4999 <span> </span><strike>₹9999</strike><span> </span> <span style="background-color: rgba(145, 133, 133, 0.833);width:12%;"><small>50% OFF</small></span></h2>
+            <button>View Details</button>
+        </div>
+    </div><br>
+    <div id="second">
+        <div id="content-vd">
+            <iframe width="377" height="200" id="vd-s" src="https://www.youtube.com/embed/7GssthztFZs" title="Backend Domination | Complete Course | Sheryians" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div id="content2">
+            <h3>Back-End Domination: Create Efficient Back-End.</h3><br>
+            <h6 style="background-color: rgba(145, 133, 133, 0.833);width:15%;">HINDI</h6><br>
+            <p>Limited Time Discount</p><br>
+            <h2>₹5999 <span> </span><strike>₹11999</strike><span> </span> <span style="background-color: rgba(145, 133, 133, 0.833);width:12%;"><small>50% OFF</small></span></h2>
+            <button>View Details</button>
+        </div>
+    </div>
+
+    <div id="third">
+        <div id="content-vd">
+            <iframe width="377" height="200" id="vd-t" src="https://www.youtube.com/embed/DVbvFQ1Awh8" title="Aptitude Reasoning for Campus Placements | Complete Course | Sheryians" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div id="content3">
+            <h3>Aptitude & Reasoning for Campus Placements</h3><br>
+            <h6 style="background-color: rgba(145, 133, 133, 0.833);width:26%;">HINGLISH</h6><br>
+            <p>Limited Time Discount</p><br>
+            <h2>₹999 <span> </span><strike>₹1500</strike><span> </span> <span style="background-color: rgba(145, 133, 133, 0.833);width:12%;"><small>33% OFF</small></span></h2>
+            <button>View Details</button>
+        </div>
+    </div>
+
+    <div id="fourth">
+        <div id="content-vd">
+            <iframe width="377" height="200" id="vd-fr" src="https://www.youtube.com/embed/MwSRNygjiKU"  title="Java &amp; DSA Domination | Complete Course | Sheryians" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>       
+         </div>
+        <br>
+        <div id="content4">
+            <h3>Java & DSA Domination</h3><br>
+            <h6 style="background-color: rgba(145, 133, 133, 0.833);width:15%;">HINDI</h6><br>
+            <p>Limited Time Discount</p><br>
+            <h2>₹4999 <span> </span><strike>₹9999</strike><span> </span> <span style="background-color: rgba(145, 133, 133, 0.833);width:12%;"><small>50% OFF</small></span></h2>
+            <button>View Details</button>
+        </div>
+    </div>
+
+    <div id="fifth">
+        <div id="content-vd">
+            <iframe width="377" height="200" style="border:none;" id="vd-fv" src="https://www.sheryians.com/courses/courses-details/Three.js%20Domination"></iframe>
+        </div>
+        <br>
+        <div id="content5">
+            <h3>Three.js Domination</h3><br>
+            <h6 style="background-color: rgba(145, 133, 133, 0.833);width:15%;">HINDI</h6><br>
+            <p>Limited Time Discount</p><br>
+            <h2>₹2499 <span> </span><strike>₹3500</strike><span> </span> <span style="background-color: rgba(145, 133, 133, 0.833);width:12%;"><small>50% OFF</small></span></h2>
+            <button>View Details</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer>
+    <div id="footer">
+        <hr>
+        <div id="f-footer">
+            <div><img style="width:25%" src="{% static 'sheriyan-removebg-preview.png' %}" alt="">
+                <p>Let's connect with our socials</p>
+                <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i><i
+                    class="fa-brands fa-discord"></i><i class="fa-brands fa-youtube"></i><i
+                    class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+                <h2>COMPANY</h2>
+                <h4>About us</h4>
+                <h4>Support</h4>
+                <h4>Privacy Policy</h4>
+                <h4>Terms and Conditions</h4>
+                <h4>Pricing and Refund</h4>
+                <h4>Hire From Us</h4>
+                <h4>Bug Bounty</h4>
+            </div>
+            <div>
+                <h2>COMMUNITY</h2>
+                <h4>Inertia</h4>
+                <h4>Discord</h4>
+            </div>
+            <div>
+                <h2>Get In Touch</h2>
+                <h4>+91 8109161752</h4>
+                <h4>+91 9691778470</h4>
+                <h4>hello@sheriyans.com</h4>
+                <h4>23-b,Indrapuri Sector C,Bhopal(MP),462021</h4>
+            </div>
+        </div>
+        <hr>
+        <div id="last">
+            <center>
+                <h2>Copyrights 2024 SheriyansPvt.Ltd.</h2>
+            </center>
+            <center>
+                <h2>All Rights Reserved</h2>
+            </center>
+        </div>
+    </div>
+</footer>
+
+
+{% endblock body%}

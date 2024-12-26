@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'email.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+{% endblock css %}
+
+{% block body%}
+<div id="form">
+    <form action="">
+    <h3>Sign In </h3>
+    <p><a href="{% url 'firstpage:signin' %}">Phone</a></p>
+    <p><a href="{% url 'firstpage:email' %}">Email</a></p><br>
+    <label for="" required>Email Address<sup>*</sup></label><br>
+    <input type="email" placeholder="Enter your email address"><br>
+    <label for="" required>Password<sup>*</sup></label><br>
+    <input type="password" placeholder="Enter your password"><br>
+    <button id="cnt">Continue</button>
+
+    <button><img src="{% static 'goggle-removebg-preview.png' %}" alt="">Continue with Google</button>
+    <button><img src="{% static 'add-to-contact-removebg-preview.png' %}" alt="">Create a New Account</button>
+    </form>
+</div>
+{% endblock body%}

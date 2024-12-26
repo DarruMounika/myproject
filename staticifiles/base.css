@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: NeueMachina;
+}
+@font-face {
+    font-family: 'NeueMachina';
+    src:url(../static/font/NeueMachina-Light.otf);
+
+}
+body{
+    background-color: black;
+}
+header{
+    width:100%;
+    height:16vh;
+    background-color: rgba(121, 113, 113, 0.2);
+    color:white;
+}
+nav{
+    width:100%;
+    height:20vh;
+    display:flex;
+    float: left;
+    color:white;
+}
+#left{
+    width:30%;
+    height:100%;
+    /* background-color: blue; */
+    display: flex;
+    align-content: center;
+    /* justify-content: center; */
+    margin: 1.5vw;
+    margin-top: 3vw;
+}
+#mid{
+    width:5%;
+    height:100%;
+}
+#right{
+    width:65%;
+    height:100%;
+    display: flex;
+    float: left;
+    /* background-color: brown; */
+    font-size: 0.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right div{
+    width:15%;
+    margin:1vw;
+    margin-left:1.5vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#right div a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 1vw;
+}
+#right div #signin{
+    width:100%;
+    height:40%;
+    padding:1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    border:none;
+    background-color: rgb(18, 217, 151);
+    border-radius: 1vw;
+}
+
